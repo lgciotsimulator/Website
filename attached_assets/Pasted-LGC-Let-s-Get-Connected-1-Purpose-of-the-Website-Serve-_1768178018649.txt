@@ -1,0 +1,218 @@
+LGC (Let’s Get Connected)
+1. Purpose of the Website
+
+Serve as the official digital presence of LGC – Let’s Get Connected
+
+Present LGC as a professional, industry-oriented IoT and hardware–software integration team
+
+Showcase achievements, projects, and industry exposure
+
+Enable collaboration and outreach without requiring backend servers
+
+2. Website Nature (MANDATORY)
+
+The website must be completely static
+
+No traditional backend (Node, PHP, databases) is allowed
+
+The site must be fast, secure, and easy to host (GitHub Pages / Netlify)
+
+3. Admin Content Management (MANDATORY – NO CODE)
+
+Admin must be able to update website content without touching source code
+
+Content editing must be done through a web-based admin dashboard
+
+Changes made by admin should automatically reflect on the website
+
+Accepted Solutions:
+
+Static site + Headless CMS (preferred)
+
+Content stored as Markdown / JSON
+
+Git-based content management (version-controlled)
+
+4. Content Management Scope
+
+Admin must be able to edit:
+
+Homepage text and tagline
+
+About section content
+
+Team members (add / remove / update roles)
+
+Events and achievements
+
+Industry collaboration details
+
+Social media links
+
+Google Form link (for collaborations & inquiries)
+
+Admin must NOT be required to:
+
+Edit HTML, CSS, or JavaScript
+
+Write code
+
+Redeploy manually
+
+5. Target Audience
+
+Industry professionals
+
+Technical communities & IEEE members
+
+Hackathon organizers
+
+Students and collaborators
+
+6. Core Website Sections (MANDATORY)
+6.1 Home / Landing Page
+
+LGC name and logo
+
+Tagline highlighting:
+
+IoT
+
+Hardware–Software Integration
+
+Industry Collaboration
+
+Short professional introduction
+
+6.2 About LGC
+
+Student-driven IoT team description
+
+Emphasis on:
+
+End-to-end system development
+
+Hardware–software co-design
+
+Industry relevance
+
+6.3 Core Focus / Expertise
+
+IoT system architecture
+
+Embedded systems (ESP32, Arduino, etc.)
+
+Circuit & PCB design
+
+Firmware and software development
+
+Communication protocols
+
+Web dashboards and automation
+
+6.4 Industry Collaboration & Experience
+
+Showcase industry exposure
+
+Company collaborations
+
+Support for images and event snapshots
+
+6.5 Achievements & Events
+
+IEEE CAS event (Madras Section)
+
+Concleva 2025 Hackathon (BITS Pilani Hyderabad, with Kiwistron)
+
+Innovators Concleva (Coimbatore – Medi Desk, Top 4 startup category)
+
+1st place in hardware track design contest
+
+Upcoming CEO meeting (1st Jan 2026)
+
+7. Projects Section (MANDATORY – DYNAMIC)
+Project Data Source
+
+Projects must be automatically fetched from a provided GitHub username’s repositories
+
+No manual project entry is allowed
+
+Functional Requirements
+
+Use GitHub Public API
+
+Display:
+
+Repository name
+
+Description
+
+Primary language
+
+Last updated date
+
+GitHub link
+
+Each repository appears as a project card
+
+Projects update automatically when GitHub repositories change
+
+8. Team Section
+
+Display team members with:
+
+Name
+
+Role
+
+Support for profile photos
+
+Multidisciplinary representation
+
+9. Connect / Contact Section
+
+LinkedIn link
+
+Instagram link
+
+WhatsApp channel link
+
+Google Form link (mandatory) for:
+
+Collaborations
+
+Project ideas
+
+Inquiries
+
+10. Footer
+
+LGC name and tagline
+
+Focus areas
+
+Copyright
+
+11. Design & UX Requirements
+
+Professional, industry-grade appearance
+
+Mobile responsive
+
+Clean navigation
+
+Scalable for future updates
+
+12. Security & Data Handling
+
+Only public data may be fetched (GitHub API)
+
+No credentials exposed on website
+
+Admin authentication handled by CMS platform
+
+All content changes must be version-controlled
+
+13. One-Line System Summary
+
+LGC’s website must be a fully static, secure, and professional platform where all content is editable via an admin dashboard without code, and projects are dynamically fetched from GitHub repositories.
