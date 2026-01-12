@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Page Not Found</title>
+    <script>
+        // Redirect to index.html with the path in the query string for SPA routing
+        var pathSegments = window.location.pathname.split('/').filter(Boolean);
+        var basePath = pathSegments.length > 0 && pathSegments[0] !== 'index.html' ? '/' + pathSegments.join('/') : '/';
+        
+        // Redirect to index.html with path preserved
+        window.location.replace(
+            window.location.pathname.substring(0, window.location.pathname.lastIndexOf('/') + 1) +
+            'index.html?redirect=' + encodeURIComponent(basePath)
+        );
+    </script>
+</head>
+<body>
+    <p>Redirecting...</p>
+</body>
+</html>

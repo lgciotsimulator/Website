@@ -8,7 +8,7 @@
       "description": "Conducted IEEE CAS event over all Madras Section",
       "date": "2025",
       "type": "event",
-      "image": null
+      "image": "/images/achievements/IEEE Event.jpeg"
     },
     {
       "id": "design-contest",
@@ -16,7 +16,7 @@
       "description": "Won 1st place in design contest in hardware track",
       "date": "2025",
       "type": "achievement",
-      "image": null
+      "image": "/images/achievements/Hardware Design Contest.jpeg"
     },
     {
       "id": "innovators-concleva",
@@ -24,7 +24,7 @@
       "description": "Developed project Medi Desk and came top 4 in startup category in Coimbatore",
       "date": "2025",
       "type": "achievement",
-      "image": null
+      "image": "/images/achievements/Innovators Concleva.jpeg"
     },
     {
       "id": "concleva-2025",
@@ -32,7 +32,7 @@
       "description": "Final round combined with Kiwistron company at BITS Pilani Hyderabad",
       "date": "2025",
       "type": "event",
-      "image": null
+      "image": "/images/achievements/Concleva hackaton 2025.jpeg"
     },
     {
       "id": "intrino-meeting",
@@ -40,7 +40,7 @@
       "description": "Meeting with Intrino company CEO Mr. Shridhar Sir",
       "date": "January 1, 2026",
       "type": "milestone",
-      "image": null
+      "image": "/images/achievements/CEO Meeting - Intrino.jpeg"
     }
   ]
 }

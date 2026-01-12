@@ -64,6 +64,15 @@ export function Achievements() {
                   data-testid={`achievement-${item.id}`}
                 >
                   <div className="p-6 rounded-2xl glass hover:border-primary/30 transition-all">
+                    {item.image && (
+                      <div className="mb-4 rounded-xl overflow-hidden">
+                        <img
+                          src={item.image}
+                          alt={item.title}
+                          className="w-full h-48 object-cover"
+                        />
+                      </div>
+                    )}
                     <div className="flex items-start gap-4">
                       <div className={`w-12 h-12 rounded-xl flex items-center justify-center shrink-0 ${colorClass}`}>
                         <Icon className="w-6 h-6" />

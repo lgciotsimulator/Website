@@ -7,37 +7,37 @@
       "id": "harsha",
       "name": "K. Harsha Sai",
       "role": "Founder & Hardware Developer",
-      "image": null
+      "image": "/images/team/Harsha sai.jpeg"
     },
     {
       "id": "hemanth",
       "name": "K. Hemanth Venkat",
       "role": "Co-Founder & Circuit Designer",
-      "image": null
+      "image": "/images/team/Hemanth.jpeg"
     },
     {
       "id": "shalini",
       "name": "H. Shalini",
       "role": "PCB Designer",
-      "image": null
+      "image": "/images/team/Shalini.jpeg"
     },
     {
       "id": "shivani",
       "name": "V. Shivani",
       "role": "Researcher",
-      "image": null
+      "image": "/images/team/Shivani.jpeg"
     },
     {
       "id": "yeshwanth",
       "name": "M. Yeshwanth Kumar",
       "role": "Web Developer",
-      "image": null
+      "image": "/images/team/Yeshwanth.jpeg"
     },
     {
       "id": "kanishk",
       "name": "K. Kanishk",
       "role": "Software Developer",
-      "image": null
+      "image": "/images/team/Kanishk.jpeg"
     }
   ]
 }

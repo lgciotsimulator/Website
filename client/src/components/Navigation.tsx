@@ -2,7 +2,6 @@ import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Menu, X } from 'lucide-react';
 import { fetchData, NavigationData } from '@/lib/data';
-import logoImage from '@assets/generated_images/lgc_abstract_logo_design.png';
 
 export function Navigation() {
   const [navData, setNavData] = useState<NavigationData | null>(null);
@@ -33,7 +32,7 @@ export function Navigation() {
     >
       <nav className="container mx-auto px-6 flex items-center justify-between">
         <a href="#home" className="flex items-center gap-3" data-testid="nav-logo">
-          <img src={logoImage} alt="LGC Logo" className="w-10 h-10 rounded-lg" />
+          <img src="/favicon.png" alt="LGC Logo" className="w-10 h-10 rounded-lg object-cover" />
           <span className="font-display text-xl font-bold text-gradient">LGC</span>
         </a>
 

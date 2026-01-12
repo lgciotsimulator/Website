@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { fetchData, SiteData } from '@/lib/data';
-import logoImage from '@assets/generated_images/lgc_abstract_logo_design.png';
 
 export function Footer() {
   const [siteData, setSiteData] = useState<SiteData | null>(null);
@@ -22,7 +21,7 @@ export function Footer() {
           className="flex flex-col md:flex-row items-center justify-between gap-8"
         >
           <div className="flex items-center gap-4">
-            <img src={logoImage} alt="LGC Logo" className="w-12 h-12 rounded-lg" />
+            <img src="/favicon.png" alt="LGC Logo" className="w-12 h-12 rounded-lg object-cover" />
             <div>
               <h3 className="font-display font-bold text-xl text-gradient">
                 {siteData.name}
@@ -37,8 +36,19 @@ export function Footer() {
             <p className="text-sm text-muted-foreground mb-2">
               IoT • Hardware–Software Integration • Industry Collaboration
             </p>
-            <p className="text-xs text-muted-foreground/70">
+            <p className="text-xs text-muted-foreground/70 mb-1">
               {siteData.copyright}
+            </p>
+            <p className="text-xs text-muted-foreground/60">
+              Designed & Developed by{' '}
+              <a 
+                href="https://github.com/shritej-koneru" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-primary font-medium hover:underline transition-all"
+              >
+                K. Shritej
+              </a>
             </p>
           </div>
         </motion.div>
