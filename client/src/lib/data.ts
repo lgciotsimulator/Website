@@ -1,5 +1,6 @@
 export async function fetchData<T>(filename: string): Promise<T> {
-  const response = await fetch(`/data/${filename}`);
+  const basePath = import.meta.env.BASE_URL || '/';
+  const response = await fetch(`${basePath}data/${filename}`);
   if (!response.ok) {
     throw new Error(`Failed to fetch ${filename}`);
   }
