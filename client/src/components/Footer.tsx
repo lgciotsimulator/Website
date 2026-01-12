@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { fetchData, SiteData } from '@/lib/data';
+import { resolveImagePath } from '@/lib/utils';
 
 export function Footer() {
   const [siteData, setSiteData] = useState<SiteData | null>(null);
@@ -21,7 +22,7 @@ export function Footer() {
           className="flex flex-col md:flex-row items-center justify-between gap-8"
         >
           <div className="flex items-center gap-4">
-            <img src="/favicon.png" alt="LGC Logo" className="w-12 h-12 rounded-lg object-cover" />
+            <img src={resolveImagePath('/favicon.png')} alt="LGC Logo" className="w-12 h-12 rounded-lg object-cover" />
             <div>
               <h3 className="font-display font-bold text-xl text-gradient">
                 {siteData.name}

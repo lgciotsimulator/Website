@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { User } from 'lucide-react';
 import { fetchData, TeamData } from '@/lib/data';
+import { resolveImagePath } from '@/lib/utils';
 
 export function Team() {
   const [teamData, setTeamData] = useState<TeamData | null>(null);
@@ -46,7 +47,7 @@ export function Team() {
               <div className="relative mx-auto w-40 h-40 rounded-2xl overflow-hidden mb-6 glass group-hover:glow transition-all">
                 {member.image ? (
                   <img
-                    src={member.image}
+                    src={resolveImagePath(member.image)}
                     alt={member.name}
                     className="w-full h-full object-cover"
                   />
