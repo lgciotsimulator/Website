@@ -6,7 +6,7 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import NotFound from "@/pages/not-found";
 import Home from "@/pages/Home";
 
-// Get the base path from the build configuration
+// Configure base path for GitHub Pages routing
 const basePath = import.meta.env.BASE_URL || "/";
 
 function Router() {
