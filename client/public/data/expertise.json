@@ -1,0 +1,55 @@
+{
+  "title": "Core Expertise",
+  "subtitle": "What LGC Builds",
+  "description": "LGC primarily works on IoT-based projects where hardware and software operate as one system.",
+  "areas": [
+    {
+      "id": "iot-architecture",
+      "title": "IoT System Architecture",
+      "description": "Designing complete IoT ecosystems from sensors to cloud",
+      "icon": "Network"
+    },
+    {
+      "id": "embedded-systems",
+      "title": "Embedded Controllers",
+      "description": "ESP32, Arduino, and custom microcontroller solutions",
+      "icon": "Cpu"
+    },
+    {
+      "id": "sensor-integration",
+      "title": "Sensor Integration",
+      "description": "Data acquisition from various sensor types and protocols",
+      "icon": "Activity"
+    },
+    {
+      "id": "pcb-design",
+      "title": "Circuit & PCB Design",
+      "description": "Professional circuit design and PCB fabrication",
+      "icon": "CircuitBoard"
+    },
+    {
+      "id": "firmware",
+      "title": "Firmware Development",
+      "description": "Custom firmware for device control and communication",
+      "icon": "Code"
+    },
+    {
+      "id": "protocols",
+      "title": "Communication Protocols",
+      "description": "Wi-Fi, BLE, MQTT, HTTP, CAN, and more",
+      "icon": "Wifi"
+    },
+    {
+      "id": "dashboards",
+      "title": "Web Dashboards",
+      "description": "Real-time monitoring and data visualization",
+      "icon": "LayoutDashboard"
+    },
+    {
+      "id": "automation",
+      "title": "Automation Systems",
+      "description": "Intelligent automation and control systems",
+      "icon": "Zap"
+    }
+  ]
+}

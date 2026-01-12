@@ -1,0 +1,43 @@
+{
+  "title": "Team LGC",
+  "subtitle": "Meet the Team",
+  "description": "LGC is powered by a multidisciplinary team, ensuring complete IoT system development.",
+  "members": [
+    {
+      "id": "harsha",
+      "name": "K. Harsha Sai",
+      "role": "Founder & Hardware Developer",
+      "image": null
+    },
+    {
+      "id": "hemanth",
+      "name": "K. Hemanth Venkat",
+      "role": "Co-Founder & Circuit Designer",
+      "image": null
+    },
+    {
+      "id": "shalini",
+      "name": "H. Shalini",
+      "role": "PCB Designer",
+      "image": null
+    },
+    {
+      "id": "shivani",
+      "name": "V. Shivani",
+      "role": "Researcher",
+      "image": null
+    },
+    {
+      "id": "yeshwanth",
+      "name": "M. Yeshwanth Kumar",
+      "role": "Web Developer",
+      "image": null
+    },
+    {
+      "id": "kanishk",
+      "name": "K. Kanishk",
+      "role": "Software Developer",
+      "image": null
+    }
+  ]
+}
