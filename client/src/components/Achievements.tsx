@@ -68,7 +68,7 @@ export function Achievements() {
                     {item.image && (
                       <div className="mb-4 rounded-xl overflow-hidden">
                         <img
-                          src={item.image}
+                          src={resolveImagePath(item.image)}
                           alt={item.title}
                           className="w-full h-48 object-cover"
                         />
