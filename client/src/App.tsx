@@ -7,8 +7,10 @@ import NotFound from "@/pages/not-found";
 import Home from "@/pages/Home";
 
 function Router() {
+  const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '') || '/';
+  
   return (
-    <Switch>
+    <Switch base={baseUrl}>
       <Route path="/" component={Home}/>
       <Route component={NotFound} />
     </Switch>
