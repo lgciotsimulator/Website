@@ -19,9 +19,5 @@ export function resolveImagePath(imagePath: string): string {
   
   // Remove leading slash if present and append to baseUrl
   const cleanPath = imagePath.startsWith('/') ? imagePath.slice(1) : imagePath;
-  const resolvedPath = `${baseUrl}${cleanPath}`;
-  
-  console.log('Resolving image path:', imagePath, '->', resolvedPath);
-  
-  return resolvedPath;
+  return `${baseUrl}${cleanPath}`;
 }
