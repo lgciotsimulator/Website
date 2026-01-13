@@ -7,7 +7,7 @@ export function cn(...inputs: ClassValue[]) {
 
 /**
  * Resolves image paths to work correctly with the BASE_URL
- * Converts absolute paths like "/images/..." to relative paths
+ * Converts absolute paths like "/images/..." to relative paths and encodes them properly
  */
 export function resolveImagePath(imagePath: string): string {
   const baseUrl = import.meta.env.BASE_URL;
@@ -17,7 +17,11 @@ export function resolveImagePath(imagePath: string): string {
     return imagePath;
   }
   
-  // Remove leading slash if present and append to baseUrl
+  // Remove leading slash if present
   const cleanPath = imagePath.startsWith('/') ? imagePath.slice(1) : imagePath;
-  return `${baseUrl}${cleanPath}`;
+  
+  // Encode the path to handle spaces and special characters
+  const encodedPath = cleanPath.split('/').map(segment => encodeURIComponent(segment)).join('/');
+  
+  return `${baseUrl}${encodedPath}`;
 }
